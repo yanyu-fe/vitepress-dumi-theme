@@ -1,5 +1,5 @@
-export const VitePluginVitepressDumi = () => {
-  // TODO
-}
+import DumiTheme from './dumi-theme'
 
-export default VitePluginVitepressDumi
+export {
+  DumiTheme,
+}

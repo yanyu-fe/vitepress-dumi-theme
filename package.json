@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fix": "eslint src --fix"
+    "fix": "eslint src --fix",
+    "docs:dev": "vitepress dev docs"
   },
   "files": [
     "dist",
