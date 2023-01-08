@@ -1,6 +1,6 @@
 import type { Theme } from 'vitepress'
-import { DumiTheme } from '../../../src/theme'
+import { ThemeDefault } from '../../../src/theme'
 
 export default {
-  ...DumiTheme,
+  ...ThemeDefault,
 } as Theme

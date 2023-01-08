@@ -1,12 +1,12 @@
 <script lang="ts" setup>
 import { useData } from 'vitepress'
+import DTNav from './components/Nav.vue'
 const { frontmatter } = useData()
-console.log(frontmatter)
 </script>
 
 <template>
   <div v-if="frontmatter.layout !== false">
-    这里是布局
+    <DTNav />
   </div>
   <Content v-else />
 </template>

@@ -1,3 +1,10 @@
 {
-    "extends":"@mistjs/eslint-config-vue"
+    "extends":"@mistjs/eslint-config-vue",
+    "rules": {
+        "array-callback-return": "off",
+        "@typescript-eslint/no-use-before-define":"off",
+        "vue/custom-event-name-casing": "off",
+        "vue/valid-v-for": "off",
+        "vue/no-use-v-if-with-v-for": "off"
+    }
 }
