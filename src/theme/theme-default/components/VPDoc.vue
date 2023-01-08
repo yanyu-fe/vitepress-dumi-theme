@@ -93,11 +93,11 @@ const onContentUpdated = inject('onContentUpdated') as Ref<() => void>
   .VPDoc:not(.has-sidebar) .container {
     display: flex;
     /*justify-content: center;*/
-    max-width: 992px;
+    /*max-width: 992px;*/
   }
 
   .VPDoc:not(.has-sidebar) .content {
-    max-width: 752px;
+    /*max-width: 752px;*/
   }
 }
 
@@ -113,13 +113,13 @@ const onContentUpdated = inject('onContentUpdated') as Ref<() => void>
 }
 
 @media (min-width: 1440px) {
-  .VPDoc:not(.has-sidebar) .content {
-    max-width: 784px;
-  }
+  /*.VPDoc:not(.has-sidebar) .content {*/
+  /*  max-width: 784px;*/
+  /*}*/
 
-  .VPDoc:not(.has-sidebar) .container {
-    max-width: 1104px;
-  }
+  /*.VPDoc:not(.has-sidebar) .container {*/
+  /*  max-width: 1104px;*/
+  /*}*/
 }
 
 .container {
