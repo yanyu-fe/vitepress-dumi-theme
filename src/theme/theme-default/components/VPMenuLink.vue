@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { useData } from 'vitepress'
-import { isActive } from '../support/utils.js'
+import { isActive } from '../support/utils'
 import VPLink from './VPLink.vue'
 
 defineProps<{

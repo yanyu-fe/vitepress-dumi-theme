@@ -1,7 +1,7 @@
 import { computed } from 'vue'
 import { useData } from 'vitepress'
-import { isActive } from '../support/utils.js'
-import { getFlatSideBarLinks, getSidebar } from '../support/sidebar.js'
+import { isActive } from '../support/utils'
+import { getFlatSideBarLinks, getSidebar } from '../support/sidebar'
 
 export function usePrevNext() {
   const { page, theme, frontmatter } = useData()

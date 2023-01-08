@@ -1,7 +1,7 @@
 import DumiTheme from './dumi-theme'
-import ThemeDefault from './theme-default'
+import DefaultTheme from './theme-default'
 
 export {
   DumiTheme,
-  ThemeDefault,
+  DefaultTheme,
 }

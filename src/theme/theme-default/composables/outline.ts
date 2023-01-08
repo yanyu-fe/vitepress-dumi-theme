@@ -1,7 +1,7 @@
 import type { DefaultTheme } from 'vitepress/theme'
 import { type Ref, onMounted, onUnmounted, onUpdated } from 'vue'
 import type { Header } from '../../../shared/shared'
-import { throttleAndDebounce } from '../support/utils.js'
+import { throttleAndDebounce } from '../support/utils'
 import { useAside } from './aside'
 
 // magic number to avoid repeated retrieval

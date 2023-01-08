@@ -2,7 +2,7 @@
 import { useRoute } from 'vitepress'
 import type { Ref } from 'vue'
 import { computed, inject, provide, ref } from 'vue'
-import { useSidebar } from '../composables/sidebar.js'
+import { useSidebar } from '../composables/sidebar'
 import VPDocFooter from './VPDocFooter.vue'
 
 const route = useRoute()

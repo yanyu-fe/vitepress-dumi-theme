@@ -7,7 +7,7 @@ import {
   type MenuItem,
   getHeaders,
   useActiveAnchor,
-} from '../composables/outline.js'
+} from '../composables/outline'
 import VPDocAsideOutlineItem from './VPDocAsideOutlineItem.vue'
 
 const { frontmatter, theme } = useData()

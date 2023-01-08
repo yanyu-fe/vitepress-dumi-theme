@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { ref, watchPostEffect } from 'vue'
 import { clearAllBodyScrollLocks, disableBodyScroll } from 'body-scroll-lock'
-import { useSidebar } from '../composables/sidebar.js'
+import { useSidebar } from '../composables/sidebar'
 import VPSidebarGroup from './VPSidebarGroup.vue'
 
 const props = defineProps<{

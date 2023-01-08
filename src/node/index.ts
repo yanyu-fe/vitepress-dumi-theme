@@ -1,10 +1,10 @@
-import type { Plugin } from 'vite'
-export const VitePluginVitepressDumi = (): Plugin => {
+import type { PluginOption } from 'vite'
+export const VitePluginVitepressDumi = (): PluginOption => {
   return {
     name: 'vitepress-dumi',
     config: () => ({
       ssr: {
-        external: ['vitepress-dumi-theme'],
+        noExternal: ['vitepress-dumi-theme'],
       },
     }),
   }

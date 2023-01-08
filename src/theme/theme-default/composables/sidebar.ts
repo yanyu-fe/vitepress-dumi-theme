@@ -8,7 +8,7 @@ import {
 } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import { useMediaQuery } from '@vueuse/core'
-import { getSidebar } from '../support/sidebar.js'
+import { getSidebar } from '../support/sidebar'
 
 export function useSidebar() {
   const route = useRoute()
