@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
+import type { Ref } from 'vue'
 import type { DefaultTheme } from 'vitepress/theme'
-import { type Ref, computed, inject, onMounted, ref } from 'vue'
+import { computed, inject, onMounted, ref } from 'vue'
 import {
   type MenuItem,
   getHeaders,

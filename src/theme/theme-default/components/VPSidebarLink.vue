@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import type { DefaultTheme } from 'vitepress/theme'
-import { type Ref, computed, inject, ref, watchEffect } from 'vue'
+import type { Ref } from 'vue'
+import { computed, inject, ref, watchEffect } from 'vue'
 import { useData } from 'vitepress'
 import { useSidebar } from '../composables/sidebar.js'
 import { isActive } from '../support/utils.js'
