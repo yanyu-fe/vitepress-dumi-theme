@@ -1,7 +1,6 @@
 import { createRequire } from 'module'
 import { defineConfig } from 'vitepress'
 
-// @ts-expect-error this is a hack to get the package.json
 const require = createRequire(import.meta.url)
 const pkg = require('vitepress/package.json')
 
@@ -26,7 +25,7 @@ export default defineConfig({
 
     sidebar: {
       '/guide/': sidebarGuide(),
-      '/config/': sidebarConfig(),
+      // '/config/': sidebarConfig(),
     },
 
     editLink: {

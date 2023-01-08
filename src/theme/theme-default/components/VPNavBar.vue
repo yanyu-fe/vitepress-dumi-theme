@@ -73,7 +73,7 @@ const { hasSidebar } = useSidebar()
     border-bottom: 0;
   }
 
-  .VPNavBar .content {
+  .VPNav:not(.no-sidebar) .VPNavBar .content {
     margin-right: -100vw;
     padding-right: 100vw;
     background: var(--vp-c-bg-alpha-without-backdrop);
@@ -83,7 +83,7 @@ const { hasSidebar } = useSidebar()
     (backdrop-filter: saturate(50%) blur(8px)) or
       (-webkit-backdrop-filter: saturate(50%) blur(8px))
   ) {
-    .VPNavBar .content {
+    .VPNav:not(.no-sidebar) .VPNavBar .content {
       -webkit-backdrop-filter: saturate(50%) blur(8px);
       backdrop-filter: saturate(50%) blur(8px);
       background: var(--vp-c-bg-alpha-with-backdrop);

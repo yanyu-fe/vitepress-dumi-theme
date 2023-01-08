@@ -131,6 +131,7 @@
   --vp-c-bg-alt: var(--vp-c-black-soft);
 
   --vp-c-bg-alpha-with-backdrop: rgba(36, 36, 36, 0.7);
+  /*--vp-c-bg-alpha-with-backdrop: rgba(53,55,56, 0.7);*/
   --vp-c-bg-alpha-without-backdrop: rgba(36, 36, 36, 0.95);
 
   --vp-c-divider: var(--vp-c-divider-dark-1);

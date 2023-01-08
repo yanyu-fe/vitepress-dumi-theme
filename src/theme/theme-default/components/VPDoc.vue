@@ -20,7 +20,7 @@ const onContentUpdated = inject('onContentUpdated') as Ref<() => void>
 <template>
   <div
     class="VPDoc"
-    :class="{ 'has-sidebar': hasSidebar, 'has-aside': hasAside }"
+    :class="{ 'has-sidebar': hasSidebar, 'has-aside': hasAside, 'no-has-sidebar': !hasSidebar }"
   >
     <div class="container">
       <!--      <div v-if="hasAside" class="aside"> -->
@@ -71,13 +71,17 @@ const onContentUpdated = inject('onContentUpdated') as Ref<() => void>
   padding: 32px 24px 96px;
   width: 100%;
   background: var(--vp-bg);
-
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
   .VPDoc {
     padding: 48px 32px 128px;
     border-radius: 20px;
+  }
+  .no-has-sidebar{
+    width: calc(100% - 192px);
+    margin: 0 96px 48px 96px;
   }
 }
 
