@@ -127,8 +127,8 @@
 .dark {
   --vp-bg: #353738;
   --vp-c-bg: var(--vp-c-black-soft);
-  --vp-c-bg-soft-link: var(--vp-c-black-soft);
   --vp-c-bg-soft: var(--vp-c-black-mute);
+  --vp-c-bg-soft-link: var(--vp-c-bg-soft);
   --vp-c-bg-mute: var(--vp-c-gray-dark-3);
   --vp-c-bg-alt: var(--vp-c-black-soft);
 
